@@ -31,3 +31,26 @@
 .MICH{
     color:rgb(230, 225, 179);
 }
+table{
+    border: 5px solid black ;
+    padding:40px 25px 45px;
+    margin:20px 40px 70px 90px;
+    width:40%;
+}
+th{
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    background-color:rgb(199, 47, 255);
+    font-style: italic;
+}
+td{ color:rgb(70, 51, 153);
+    border: 1px solid black;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: gold;
+}
+tr:nth-child(odd){
+    background-color: red;
+}
